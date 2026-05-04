@@ -2,11 +2,11 @@
 public class TwoSum{
 public static void main (String[] args){
 
-    double[] myList = {2,3,4,5,6,};
+    int[] myList = {2,3,4,5,6,};
 
 
-    double max = myList[0];
-    double min = myList[0];
+    int max = myList[0];
+    int min = myList[0];
 for (int i = 1; i < myList.length; i++) {
     if (max < myList[i]) 
         max = myList[i];
