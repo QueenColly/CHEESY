@@ -18,6 +18,9 @@ for (int i = 1; i < myList.length; i++) {
     System.out.println();
     System.out.println(max+ "max is ");
      System.out.println(min + "min is ");
+
+    int sum = max + min;
+    System.out.println("The sum is " + sum);
 }
 }
 
