@@ -1,0 +1,35 @@
+import java.util.Arrays;
+public class Bent {
+public static void main(String[] args){
+// 
+//    double x  = 1.1;
+//      double y = (double)x + 2;
+//    System.out.println(y);
+//   
+// }
+//}
+
+int[] numbers = {2,1,5,7,8};
+System.out.println(Arrays.toString(getOddArray(numbers)));
+}
+
+
+    public static int[] getOddArray(int [] numbers){
+//    int count =0;
+    int [] result =new int[numbers.length];
+
+    for(int index = 0; index < numbers.length; index++){
+        if(numbers[index] % 2 !=0){
+//         count++;
+         result[index]= numbers[index];
+//        return result;
+        
+
+        }       
+
+    
+    }
+  return result;
+
+    }
+}

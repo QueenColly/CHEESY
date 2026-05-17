@@ -1,0 +1,14 @@
+public class UserData{
+
+public static main void(String[] args) {
+
+  String firstName = "Collete"
+  String lastName = "Umeh"
+  int year = 2026
+  
+  System.out.print("I am and this is , firstName, \n + lastName , \n + year");
+}
+
+  }
+
+
